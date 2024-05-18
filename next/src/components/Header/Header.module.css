@@ -1,0 +1,38 @@
+.headerbc{
+    top: -4%;
+    position: absolute;
+    width: 84%;
+    height: 14%;
+    background-color: #e4c7cd;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.Link{
+    text-decoration: none;
+    color: black;
+    margin-top: 2%;
+    margin-right: 5%;
+    padding: 8px;
+    transition: 0.2s;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.Link:hover{
+    background-color: #f9e7eb;
+}
+
+.image{
+    height: 64px;
+}
+.logo{
+    display: flex;
+    left: 1%;
+    position: absolute;
+    top: 35%;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+}

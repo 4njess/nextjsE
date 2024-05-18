@@ -1,0 +1,57 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  justify-content: space-evenly;
+}
+
+.textbox{
+  font-weight: 550;
+}
+.infblock{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  background-color: #e4c7cd;
+  padding: 3% 5% 4% 5%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 0px black;
+  width: 65%;
+}
+
+.infitem{
+  margin-top: 5%;
+  margin-bottom: 3%;
+  display: flex;
+  border: 3px solid;
+  border-radius: 5px;
+  width: 100%;
+  position: relative;
+}
+.vrinfo{
+  margin-left:5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-weight: 600;
+  width: 50%;
+}
+.link{
+  right: 0px;
+  position: absolute;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 15px 15px 15px 15px;
+  background: #cfc7e4;
+  border-left: 3px solid;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+.link:hover{
+  background: #e9e4f7;
+  box-shadow: -6px 0px 0px;
+}

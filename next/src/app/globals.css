@@ -1,0 +1,21 @@
+*{
+  scroll-behavior: smooth;
+}
+:root {
+ 
+:root{}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  background: rgb(199, 228, 222);
+
+
+}}
+nextjs-portal {
+  display: none;
+}

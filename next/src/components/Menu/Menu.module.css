@@ -1,0 +1,21 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.link{
+    background: #cfc7e4;
+    padding: 14px;
+    width: 130px;
+    text-decoration: none;
+    color: black;
+    border-radius: 1100px;
+    transition: 0.5s;
+    border: 2px solid rgba(0, 0, 0, 0.591);
+}
+.link:hover{
+    background: #e3ddf2;;
+    box-shadow: 2px 2px 1px;
+}
